@@ -29,7 +29,7 @@ Then any of OpenCV modules can be included in project with command target_link_l
 
 ```cmake
 
-add_library(MyLibrary SHARED MyLibrary.cpp)
+add_library(MyLibrary STATIC MyLibrary.cpp)
 
 target_link_libraries(MyLibrary opencv_core opencv_imgproc)
 
